@@ -32,7 +32,6 @@ for song_url in song_code_list:
     response_1.encoding = 'utf-8'
     html_1 = response_1.text
     song_name = re.findall(r'<font color=\"#3d6699\">(.*?)</font></div>', html_1)
-    song_num += 1
     down_url = 'http://music.izda.com/?a=download&tid=%sF&q=%s+%s' % (song_url, singer_last_name, singer_first_name)
     response_2 = requests.get(down_url)
     response_2.encoding = 'utf-8'
@@ -41,6 +40,7 @@ for song_url in song_code_list:
     song_down_url = song_down[0]
     song_down_url = song_down_url.replace(' ', '%20')
     print('第', song_num, '首', ': ', song_name, '  ', song_down_url)
+    song_num += 1
 print("已完毕！可直接点击链接进行相关歌曲下载！")
 
 
