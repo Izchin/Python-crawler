@@ -11,7 +11,7 @@ import re
 import requests
 
 # 请注意：请把歌手名和姓分开输入，也可通过歌名来搜索！
-singer_first_name = input(print('请输入歌名：'))
+singer_first_name = input(print('请输入歌手的名：'))
 singer_last_name = input(print('请输入歌手的姓：'))
 url = "http://music.izda.com/?a=search&q=%s+%s" % (singer_last_name, singer_first_name)
 header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
