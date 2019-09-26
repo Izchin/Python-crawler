@@ -1,7 +1,7 @@
 # Python 爬虫程序集
 ****
 
-### 1.网易云音乐歌曲列表链接获取
+### 1. Netease music list
   
 ###### ID 为网址数字，若下图所示：  
 <img src="image/music_01.png" width = "500">
@@ -15,3 +15,5 @@
 ###### 文档内容如图所示：
 <img src="image/music_04.png" width = "500">
   
+**** 
+### 1. Izda music list
