@@ -3,7 +3,6 @@
 
 # by izchin
 # github : izchin
-# Gmail : izchinmt@gmail.com
 # Time : 2019/8/23
 # 本程序用于搜索izda网站收藏的歌曲，可显示歌曲下载地址！
 
