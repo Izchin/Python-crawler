@@ -3,7 +3,6 @@
 
 # by izchin
 # github : izchin
-# Gmail : izchinmt@gmail.com
 # Time : 2019/8/22
 
 import requests
