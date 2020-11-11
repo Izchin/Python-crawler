@@ -1,8 +1,5 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
-
-# by izchin
-# github : izchin
 # Time : 2019/8/22
 
 import requests
